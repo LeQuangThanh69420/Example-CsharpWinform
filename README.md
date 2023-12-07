@@ -1,5 +1,6 @@
 # csharp-winform-example
 ### mssql table
+```
 CREATE TABLE [dbo].[SV] (
     [MSSV]     NVARCHAR (50) NOT NULL,
     [TenSV]    NVARCHAR (50) NULL,
@@ -11,3 +12,4 @@ CREATE TABLE [dbo].[User] (
     [Password] NVARCHAR (50) NULL,
     CONSTRAINT [PK_User] PRIMARY KEY CLUSTERED ([Username] ASC)
 );
+```
